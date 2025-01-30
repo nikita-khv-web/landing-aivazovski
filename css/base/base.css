@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: var(--primary);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  max-width: 980px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
