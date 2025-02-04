@@ -13,19 +13,19 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link menu__link_active">Home</a>
+              <a href="#home" class="menu__link">Home</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">About</a>
+              <a href="#about" class="menu__link">About</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">History</a>
+              <a href="#history" class="menu__link">History</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Portfolio</a>
+              <a href="#portfolio" class="menu__link">Portfolio</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Contacts</a>
+              <a href="#contacts" class="menu__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -33,7 +33,7 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="home">
         <div class="container">
           <h1 class="hero__title">Ivan Constantinovich Aivazovski</h1>
           <p class="hero__text">Russian marine painter of Armenian origin,
@@ -43,7 +43,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h2 class="about__title">About</h2>
 
@@ -72,7 +72,7 @@
           </div>
         </section>
 
-        <section class="history">
+        <section class="history" id="history">
           <div class="container">
             <h2 class="history__title">History</h2>
             <img src="./assets/images/history.webp"
@@ -82,7 +82,7 @@
           </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
           <div class="container">
             <h2 class="portfolio__title">Portfolio</h2>
 
@@ -114,5 +114,51 @@
           </div>
         </section>
       </main>
+
+      <footer class="footer" id="contacts">
+        <div class="container">
+          <h2 class="footer__title">Contacts</h2>
+          <a href="https://aivazovsky.ru/" class="footer__link"
+            target="_blank">ayvazovskiy.ru</a>
+          <address class="social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="https://www.youtube.com/" class="social__link">
+                  <svg class="social__icon" aria-label="youtube icon">
+                    <use
+                      xlink:href="./assets/images/sprite.svg#youtube-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="https://www.linkedin.com/" class="social__link">
+                  <svg class="social__icon" aria-label="linkedin icon">
+                    <use
+                      xlink:href="./assets/images/sprite.svg#linkedin-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="https://www.instagram.com/" class="social__link">
+                  <svg class="social__icon" aria-label="instagram icon">
+                    <use
+                      xlink:href="./assets/images/sprite.svg#instagram-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="https://www.facebook.com/" class="social__link">
+                  <svg class="social__icon" aria-label="facebook icon">
+                    <use
+                      xlink:href="./assets/images/sprite.svg#facebook-icon"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+          <p class="footer__text">More works you can see in these social
+            networks</p>
+        </div>
+      </footer>
     </body>
   </html>

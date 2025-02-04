@@ -5,6 +5,7 @@
 
 /* COMPONENTS */
 @import url("./components/menu.css");
+@import url("./components/social.css");
 
 /* LAYOUT */
 @import url("./layout/header.css");
@@ -12,3 +13,4 @@
 @import url("./layout/about.css");
 @import url("./layout/history.css");
 @import url("./layout/portfolio.css");
+@import url("./layout/footer.css");

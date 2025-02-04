@@ -30,11 +30,6 @@
   transition: right 0.3s ease-in-out;
 }
 
-.menu__link_active {
-  pointer-events: none;
-  color: var(--primary);
-}
-
 .menu__link:hover,
 .menu__link:hover::after {
   color: var(--primary);
